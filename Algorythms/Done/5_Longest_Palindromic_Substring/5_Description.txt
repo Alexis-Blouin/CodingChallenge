@@ -1,1 +1,6 @@
 Given a string s, return the longest palindromic substring in s.
+
+Results:
+312ms | Beats 92.68%
+11.67MB | Beats 87.32%
+

@@ -3,3 +3,7 @@ The digits are stored in reverse order, and each of their nodes contains a singl
 Add the two numbers and return the sum as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+
+Results:
+27ms | Beats 99.51%
+11.68MB | Beats 66.72%
