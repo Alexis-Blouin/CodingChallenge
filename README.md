@@ -1,2 +1,2 @@
 # LeetCode
-This is my repo where I do LeetCode algorithm!
+This is my repo where I resolve LettCode problems!
