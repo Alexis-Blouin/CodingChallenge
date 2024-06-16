@@ -17,6 +17,9 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    # Expected output: 3
     print(Solution().lengthOfLongestSubstring("abcabcbb"))
+    # Expected output: 1
     print(Solution().lengthOfLongestSubstring("bbbbb"))
+    # Expected output: 3
     print(Solution().lengthOfLongestSubstring("pwwkew"))

@@ -29,4 +29,8 @@ class Solution(object):
         return pal
 
 
-print(Solution().longestPalindrome("cbbd"))
+if __name__ == "__main__":
+    # Expected output: "bab"
+    print(Solution().longestPalindrome("babad"))
+    # Expected output: "bb"
+    print(Solution().longestPalindrome("cbbd"))

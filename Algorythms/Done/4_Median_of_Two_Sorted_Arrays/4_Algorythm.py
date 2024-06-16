@@ -32,4 +32,7 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    # Expected output: 2.0
     print(Solution().findMedianSortedArrays([1, 3], [2]))
+    # Expected output: 2.5
+    print(Solution().findMedianSortedArrays([1, 2], [3, 4]))
