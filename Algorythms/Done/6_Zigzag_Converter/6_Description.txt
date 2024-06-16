@@ -7,3 +7,7 @@ And then read line by line: "PAHNAPLSIIGYIR"
 Write the code that will take a string and make this conversion given a number of rows:
 
 string convert(string s, int numRows);
+
+Results:
+35ms | Beats 65.36%
+11.69MB | Beats 93.61%
