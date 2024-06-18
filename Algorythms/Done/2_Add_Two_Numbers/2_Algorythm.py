@@ -48,10 +48,11 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: [7, 0, 8]
     l1 = ListNode(2, ListNode(4, ListNode(3)))
     l2 = ListNode(5, ListNode(6, ListNode(4)))
-    l3 = Solution().addTwoNumbers(l1, l2)
+    l3 = sol.addTwoNumbers(l1, l2)
     result = []
     while l3 is not None:
         result.append(l3.val)
@@ -61,7 +62,7 @@ if __name__ == "__main__":
     # Expected output: [0]
     l1 = ListNode(0)
     l2 = ListNode(0)
-    l3 = Solution().addTwoNumbers(l1, l2)
+    l3 = sol.addTwoNumbers(l1, l2)
     result = []
     while l3 is not None:
         result.append(l3.val)
@@ -73,7 +74,7 @@ if __name__ == "__main__":
         9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))
     )
     l2 = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
-    l3 = Solution().addTwoNumbers(l1, l2)
+    l3 = sol.addTwoNumbers(l1, l2)
     result = []
     while l3 is not None:
         result.append(l3.val)

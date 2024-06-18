@@ -17,9 +17,10 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: 3
-    print(Solution().lengthOfLongestSubstring("abcabcbb"))
+    print(sol.lengthOfLongestSubstring("abcabcbb"))
     # Expected output: 1
-    print(Solution().lengthOfLongestSubstring("bbbbb"))
+    print(sol.lengthOfLongestSubstring("bbbbb"))
     # Expected output: 3
-    print(Solution().lengthOfLongestSubstring("pwwkew"))
+    print(sol.lengthOfLongestSubstring("pwwkew"))

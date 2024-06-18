@@ -30,7 +30,8 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: "bab"
-    print(Solution().longestPalindrome("babad"))
+    print(sol.longestPalindrome("babad"))
     # Expected output: "bb"
-    print(Solution().longestPalindrome("cbbd"))
+    print(sol.longestPalindrome("cbbd"))

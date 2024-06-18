@@ -13,9 +13,10 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: 321
-    print(Solution().reverse(123))
+    print(sol.reverse(123))
     # Expected output: -321
-    print(Solution().reverse(-123))
+    print(sol.reverse(-123))
     # Expected output: 21
-    print(Solution().reverse(120))
+    print(sol.reverse(120))

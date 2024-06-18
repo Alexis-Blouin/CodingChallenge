@@ -27,12 +27,12 @@ class Solution(object):
         if (l % 2) == 0:
             return float(nums3[l // 2] + nums3[~(l // 2)]) / 2
         else:
-            print(l)
             return nums3[l // 2]
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: 2.0
-    print(Solution().findMedianSortedArrays([1, 3], [2]))
+    print(sol.findMedianSortedArrays([1, 3], [2]))
     # Expected output: 2.5
-    print(Solution().findMedianSortedArrays([1, 2], [3, 4]))
+    print(sol.findMedianSortedArrays([1, 2], [3, 4]))

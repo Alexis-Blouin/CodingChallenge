@@ -32,9 +32,10 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: "PAHNAPLSIIGYIR"
-    print(Solution().convert("PAYPALISHIRING", 3))
+    print(sol.convert("PAYPALISHIRING", 3))
     # Expected output: "PINALSIGYAHRPI"
-    print(Solution().convert("PAYPALISHIRING", 4))
+    print(sol.convert("PAYPALISHIRING", 4))
     # Expected output: "A"
-    print(Solution().convert("A", 1))
+    print(sol.convert("A", 1))

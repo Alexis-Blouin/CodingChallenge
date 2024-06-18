@@ -32,13 +32,14 @@ class Solution(object):
 
 
 if __name__ == "__main__":
+    sol = Solution()
     # Expected output: 42
-    print(Solution().myAtoi("42"))
+    print(sol.myAtoi("42"))
     # Expected output: -42
-    print(Solution().myAtoi("   -42"))
+    print(sol.myAtoi("   -42"))
     # Expected output: 1337
-    print(Solution().myAtoi("1337c0d3"))
+    print(sol.myAtoi("1337c0d3"))
     # Expected output: 0
-    print(Solution().myAtoi("0-1"))
+    print(sol.myAtoi("0-1"))
     # Expected output: 0
-    print(Solution().myAtoi("words and 987"))
+    print(sol.myAtoi("words and 987"))
