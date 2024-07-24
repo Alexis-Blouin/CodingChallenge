@@ -6,3 +6,7 @@ Constraints:
     1 <= strs.length <= 200
     0 <= strs[i].length <= 200
     strs[i] consists of only lowercase English letters.
+
+Results:
+12ms | Beats 85.85%
+11.76MB | Beats 81.87%
