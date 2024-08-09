@@ -7,5 +7,5 @@ Constraints:
     -10^5 <= nums[i] <= 10^5
 
 Results:
-ms | Beats %
-MB | Beats %
+849ms | Beats 64.18%
+14.96MB | Beats 70.68%
