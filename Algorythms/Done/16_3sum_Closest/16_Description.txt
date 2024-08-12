@@ -10,5 +10,5 @@ Constraints:
     -10^4 <= target <= 10^4
 
 Results:
-ms | Beats %
-MB | Beats %
+464ms | Beats 66.04%
+11.67MB | Beats 59.42%
