@@ -7,5 +7,5 @@ Constraints:
     digits[i] is a digit in the range ['2', '9'].
 
 Results:
-ms | Beats %
-MB | Beats %
+12ms | Beats 56.21%
+11.84MB | Beats 9.20%
